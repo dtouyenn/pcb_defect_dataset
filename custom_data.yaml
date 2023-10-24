@@ -1,0 +1,12 @@
+
+# relative paths to train / val / test 
+
+train: pcb_defect_dataset_v2/train   # train images
+val: pcb_defect_dataset_v2/val       # val images
+test: pcb_defect_dataset_v2/test     # test images
+
+# number of classes
+nc: 6           
+
+# class names 
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
