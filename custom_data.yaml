@@ -1,9 +1,9 @@
 
 # relative paths to train / val / test 
 
-train: pcb_defect_dataset_v2/train   # train images
-val: pcb_defect_dataset_v2/val       # val images
-test: pcb_defect_dataset_v2/test     # test images
+train: /content/pcb_defect_dataset/images/train   # train images
+val: /content/pcb_defect_dataset/images/val       # val images
+test: /content/pcb_defect_dataset/images/test     # test images
 
 # number of classes
 nc: 6           
